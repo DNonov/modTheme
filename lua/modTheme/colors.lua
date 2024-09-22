@@ -5,15 +5,15 @@ colors.get_colors = function()
     if vim.o.background == 'dark' then
         mycolors = {
             vscNone = 'NONE',
-            vscFront = '#D4D4D4',
-            vscBack = '#1E1E1E',
+            vscFront = '#8f8f8f',
+            vscBack = '#181818',
 
             vscTabCurrent = '#1E1E1E',
             vscTabOther = '#2D2D2D',
             vscTabOutside = '#252526',
 
-            vscLeftDark = '#252526',
-            vscLeftMid = '#373737',
+            vscLeftDark = '#181818',
+            vscLeftMid = '#222222',
             vscLeftLight = '#636369',
 
             vscPopupFront = '#BBBBBB',
@@ -28,7 +28,7 @@ colors.get_colors = function()
             vscCursorDarkDark = '#222222',
             vscCursorDark = '#51504F',
             vscCursorLight = '#AEAFAD',
-            vscSelection = '#264F78',
+            vscSelection = '#0A0A0A',
             vscLineNumber = '#5A5A5A',
 
             vscDiffRedDark = '#4B1818',
@@ -56,22 +56,32 @@ colors.get_colors = function()
             vscFoldBackground = '#202d39',
 
             -- Syntax colors
-            vscGray = '#808080',
+            vscGray = '#707070',
             vscViolet = '#646695',
-            vscBlue = '#569CD6',
+            vscBlue = '#8397a9',
+            -- it's actual red
+            --vscBlue = '#AF7070',
             vscAccentBlue = '#4FC1FE',
-            vscDarkBlue = '#223E55',
+            --red
+            vscDarkBlue = '#AF7070',
             vscMediumBlue = '#18a2fe',
-            vscLightBlue = '#9CDCFE',
-            vscGreen = '#6A9955',
-            vscBlueGreen = '#4EC9B0',
-            vscLightGreen = '#B5CEA8',
-            vscRed = '#F44747',
-            vscOrange = '#CE9178',
+            -- new aqua
+            vscLightBlue = '#8397A9',
+            -- new green
+            -- vscGreen = '#97A983',
+            vscGreen = '#6d8058',
+            -- segavscBlueGreen = '#CEB481',
+            vscBlueGreen = '#CEB481',
+            -- vscBlueGreen = '#bda371',
+            vscLightGreen = '#A3A46F',
+            vscRed = '#AF7070',
+            -- new orange
+            vscOrange = '#BC8D6D',
             vscLightRed = '#D16969',
             vscYellowOrange = '#D7BA7D',
             vscYellow = '#DCDCAA',
-            vscDarkYellow = '#FFD602',
+            -- vscDarkYellow = '#d4d69a',
+            vscDarkYellow = '#bfa981',
             vscPink = '#C586C0',
         }
     else
@@ -100,7 +110,7 @@ colors.get_colors = function()
             vscCursorDarkDark = '#E5EBF1',
             vscCursorDark = '#6F6F6F',
             vscCursorLight = '#767676',
-            vscSelection = '#ADD6FF',
+            vscSelection = '#000000',
             vscLineNumber = '#098658',
 
             vscDiffRedDark = '#FFCCCC',
@@ -130,13 +140,13 @@ colors.get_colors = function()
             -- Syntax colors
             vscGray = '#000000',
             vscViolet = '#000080',
-            vscBlue = '#0000FF',
+            vscBlue = '#000080',
             vscDarkBlue = '#007ACC',
             vscLightBlue = '#0451A5',
             vscGreen = '#008000',
             vscBlueGreen = '#16825D',
             vscLightGreen = '#098658',
-            vscRed = '#FF0000',
+            vscRed = '#731718',
             vscOrange = '#C72E0F',
             vscLightRed = '#A31515',
             vscYellowOrange = '#800000',
